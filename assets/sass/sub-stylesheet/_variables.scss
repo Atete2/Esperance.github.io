@@ -1,0 +1,78 @@
+$bootstrap-sass-asset-helper: false !default;
+//
+// Variables
+// --------------------------------------------------
+
+
+// Colors
+// #ea0599-pink
+
+$title-color: #fff7e9;
+$text-color: #93a1a6;
+$primary-color:#ffa801;
+$theme-color: #0ebeff;
+$secondary-color: #020040;
+$section-bg-color:#01033a;
+$border-color: #032c4a;
+$white-color: #fff;
+$ash-color: #f7f1e9;
+$bg-dark: #020040;
+$bg-color:#03032B;
+$gradient-color:linear-gradient(to top, #8dc53f, #76c14e, #5ebd5b, #46b868, #29b373);
+
+// social-media color
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #007bb5;
+$skype: #2fb7df;
+$youtube: #cd201f;
+$google: #dd4b39;
+$github:#333333;
+$camera: #e4405f;
+$dribble: #ea4c89;
+$instagram: #e4405f;
+$tumblr: #34465d;
+$behance: #1769ff;
+$star: #e9ba17;
+$green: #0be881;
+$green-h: #0fbcf9;
+$red: #f53b57;
+$yellow: #dec32b;
+$nell: #212fb4;
+$navy: #d8e0f3;
+$plaseholder: #a0a6bc;
+$pinterest : #bd081c;
+$basketball : #e94c89;
+$vimeo : #3b5998;
+//== Typography
+
+// font-family
+$font-family2: 'Ubuntu',
+sans-serif;
+$font-family1: 'Ubuntu',
+sans-serif;
+// $font-family1: 'Jost', sans-serif;
+$font-family3: 'Lato',
+sans-serif;
+$font-family4: 'Poppins',
+sans-serif;
+
+
+
+
+
+// font-size
+$fs-base: 16px !default;
+$fs-h1: 80px;
+$fs-h2: 40px;
+$fs-h3: 36px;
+$fs-h4: 30px;
+$fs-h5: 24px;
+$fs-h6: 20px;
+$fs-h7: 18px;
+
+// Description line height
+$lh-p: 28px;
+
+//  transition
+$transition: all 0.3s ease;

@@ -1,0 +1,40 @@
+/*Footer section start here*/
+.footer {
+    background-color: $secondary-color;
+    padding-top: 80px;
+
+
+    &__wrapper {
+
+        margin: 0 auto;
+        text-align: center;
+
+        @include breakpoint(lg) {
+            max-width: 50%;
+        }
+
+
+
+
+        .social {
+            justify-content: center;
+            padding-block: 10px;
+
+
+        }
+    }
+
+    .copyright {
+        border-top: 1px solid $border-color;
+        text-align: center;
+        padding-block: 20px;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+
+}
+
+/*Footer section End here*/

@@ -1,0 +1,138 @@
+/*! @@@@@@@@@@@@@@@@@@@@@@
+Template Name: Anton
+Template URI: https://www.templatemonster.com/authors/discretedev/
+Author: DiscreteDev
+Author URI: https://www.templatemonster.com/authors/discretedev/
+Description: Anton is a versatile personal portfolio HTML template crafted by DiscreteDev. Showcase your skills and projects with this modern and responsive design. Whether you're a developer, designer, or any other professional, Anton provides a clean and minimalist layout to highlight your work. Customizable and suitable for various projects, contact us for tailored designs and collaborate with our experienced team to bring your vision to life.
+Version: 1.0.0
+Text Domain: Anton by DiscreteDev
+Tags: Portfolio, Personal website, Developer, Designer, Professional, Creative, Responsive design, HTML template, CSS3, JavaScript, Bootstrap, Clean, Modern, Minimalist, UI/UX, Showcase, Resume, Freelancer, Agency, Blog
+
+@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	box-shadow: none;
+}
+
+body {
+	background: $bg-color;
+	color: $text-color;
+	font-family: $font-family1;
+	font-size: $fs-base;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $title-color;
+	font-weight: 700;
+	font-family: $font-family2;
+	line-height: 1.35;
+}
+
+a>h1,
+a>h2,
+a>h3,
+a>h4,
+a>h5,
+a>h6 {
+	@include transition($transition);
+}
+
+h1 {
+	font-size: $fs-h1;
+}
+
+h2 {
+	font-size: $fs-h3;
+}
+
+h3 {
+	font-size: $fs-h4;
+}
+
+h4 {
+	font-size: $fs-h5;
+}
+
+h5 {
+	font-size: $fs-h6;
+	margin-top: -5px;
+}
+
+h6 {
+	font-size: $fs-h6;
+}
+
+p {
+	margin-bottom: 15px;
+	font-weight: 400;
+	font-size: $fs-base;
+	color: $text-color;
+	line-height: 24px;
+}
+
+a {
+	color: $title-color;
+	@include transition($transition);
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: $title-color;
+	text-decoration: none;
+	outline: none;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+@include breakpoint(sm) {
+	h1 {
+		font-size: $fs-h1;
+	}
+
+	h2 {
+		font-size: $fs-h2;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-size: $fs-h3;
+	}
+
+	h4 {
+		font-size: $fs-h4;
+	}
+
+	h5 {
+		font-size: $fs-h5;
+	}
+
+	h6 {
+		font-size: $fs-h6;
+	}
+}
+
+.ddv-ul {
+	margin: 0;
+	padding-left: 0;
+
+	li {
+		list-style: none;
+	}
+}

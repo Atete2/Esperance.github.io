@@ -1,0 +1,115 @@
+/* @@@@@@@@@@@@@  Contact Us Section Start Here  @@@@@@@@@@@@@@ */
+
+
+.contact-header {
+    margin-bottom: 45px;
+}
+
+
+.contact-address {
+    padding: 20px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    text-align: start;
+    max-width: 450px;
+
+
+}
+
+.location-map {
+    #map {
+        margin-inline-end: auto;
+        height: 350px;
+        width: 100%;
+        // margin-top: 50px;
+
+        @include breakpoint(lg) {
+            margin-top: 0;
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+
+    p {
+        margin: 20px 0;
+    }
+
+    span {
+        color: $white-color;
+        font-weight: bold;
+    }
+
+    a {
+        color: $text-color;
+
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}
+
+
+.contact-form-wrapper {
+    .contact-form {
+        p {
+            max-width: 550px;
+        }
+
+        h5 {
+            font-family: $font-family1;
+        }
+
+        form {
+            &.comment-form {
+                @extend %flex;
+                justify-content: space-between;
+                width: 100%;
+                margin-top: 0;
+
+                input[type="text"],
+                [type="email"] {
+                    color: $white-color;
+                    padding: 15px;
+                    border: 1px solid rgba($theme-color, $alpha: .20);
+                    background: $secondary-color;
+                    width: 100%;
+                    margin-bottom: 30px;
+                    transition: $transition;
+
+                    @include breakpoint(sm) {
+                        width: calc(100% / 2 - 10px);
+                    }
+
+                    border-radius: 10px;
+
+                    &:focus {
+                        border: 1px solid $theme-color;
+                    }
+                }
+
+                textarea {
+                    color: $white-color;
+                    background: $secondary-color;
+                    border: 1px solid rgba($theme-color, $alpha: .20);
+                    width: 100%;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+
+                    &:focus {
+                        border: 1px solid $theme-color;
+                    }
+                }
+
+                .default-btn {
+                    outline: none;
+                    border: 0;
+                }
+            }
+        }
+    }
+}
